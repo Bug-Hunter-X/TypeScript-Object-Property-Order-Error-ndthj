@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in TypeScript related to object property order.  The TypeScript compiler can be sensitive to the order of properties in object literals when compared to type definitions with optional properties.  This example shows how changing the order can lead to a type error, even though the properties themselves are correct.
